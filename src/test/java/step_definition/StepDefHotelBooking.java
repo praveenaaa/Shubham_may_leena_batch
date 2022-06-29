@@ -32,7 +32,7 @@ public class StepDefHotelBooking {
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	objhbpg = new HotelBookingPageFactory(driver);
 	objhbpg = PageFactory.initElements(driver,HotelBookingPageFactory.class );
-
+		System.out.println("Launching Browser");
 	//driver.get("file:///C:/Users/rutkulka/Documents/BDD/hotelBooking/hotelbooking.html");
 	}
 

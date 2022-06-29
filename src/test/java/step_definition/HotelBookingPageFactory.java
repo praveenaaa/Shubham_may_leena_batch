@@ -73,6 +73,7 @@ WebDriver driver;
 	//step 2 : Setters
 	public void setPffname(String sfname) {
 		pffname.sendKeys(sfname);
+		System.out.println("Enter First Name");
 	}
 
 	public void setPfbutton() {
